@@ -1,0 +1,208 @@
+[
+  {
+    "shop_name": "袁记云饺",
+    "audio_path": "storage/audio/sample_yuanji_01.wav",
+    "original_text": "袁记云饺今天出餐挺快，饺子口感也不错。",
+    "cleaned_text": "袁记云饺出餐快，饺子口感不错。",
+    "language": "zh",
+    "sentiment_label": "正面",
+    "sentiment_scores": {
+      "positive": 0.78,
+      "negative": 0.08,
+      "neutral": 0.14
+    },
+    "issue_categories": ["口味", "出餐速度"],
+    "issue_weights": {
+      "口味": 0.6,
+      "出餐速度": 0.4
+    },
+    "urgency": "低",
+    "summary": "学生普遍认为出餐快，饺子口感稳定。",
+    "summary_en": "Students generally think the service is fast and the dumpling quality is consistent.",
+    "total_score": 89.0,
+    "created_at": "2026-03-22T11:20:00"
+  },
+  {
+    "shop_name": "麻辣香锅",
+    "audio_path": "storage/audio/sample_mala_01.wav",
+    "original_text": "麻辣香锅有点太咸了，中午还排了很久。",
+    "cleaned_text": "麻辣香锅口味偏重，中午排队时间长。",
+    "language": "zh",
+    "sentiment_label": "负面",
+    "sentiment_scores": {
+      "positive": 0.08,
+      "negative": 0.82,
+      "neutral": 0.10
+    },
+    "issue_categories": ["口味", "排队效率"],
+    "issue_weights": {
+      "口味": 0.55,
+      "排队效率": 0.45
+    },
+    "urgency": "中",
+    "summary": "反馈集中在口味偏重和高峰期等待时间长。",
+    "summary_en": "Feedback mainly focuses on strong seasoning and long wait times during peak hours.",
+    "total_score": 78.0,
+    "created_at": "2026-03-22T12:05:00"
+  },
+  {
+    "shop_name": "兰州拉面",
+    "audio_path": "storage/audio/sample_lanzhou_01.wav",
+    "original_text": "兰州拉面今天汤底很香，基本没怎么排队。",
+    "cleaned_text": "兰州拉面汤底香，基本无需排队。",
+    "language": "zh",
+    "sentiment_label": "正面",
+    "sentiment_scores": {
+      "positive": 0.84,
+      "negative": 0.05,
+      "neutral": 0.11
+    },
+    "issue_categories": ["口味"],
+    "issue_weights": {
+      "口味": 1.0
+    },
+    "urgency": "低",
+    "summary": "学生对汤底和出餐效率评价积极。",
+    "summary_en": "Students gave positive feedback on both the broth and the serving efficiency.",
+    "total_score": 91.0,
+    "created_at": "2026-03-23T10:15:00"
+  },
+  {
+    "shop_name": "淮南牛肉汤",
+    "audio_path": "storage/audio/sample_huainan_01.wav",
+    "original_text": "牛肉汤味道可以，就是感觉分量再多一点会更好。",
+    "cleaned_text": "淮南牛肉汤味道不错，但分量略少。",
+    "language": "zh",
+    "sentiment_label": "中性",
+    "sentiment_scores": {
+      "positive": 0.48,
+      "negative": 0.18,
+      "neutral": 0.34
+    },
+    "issue_categories": ["分量", "口味"],
+    "issue_weights": {
+      "分量": 0.58,
+      "口味": 0.42
+    },
+    "urgency": "低",
+    "summary": "口味整体稳定，但部分学生希望分量更足。",
+    "summary_en": "The taste is generally stable, but some students want a larger portion.",
+    "total_score": 86.0,
+    "created_at": "2026-03-23T12:10:00"
+  },
+  {
+    "shop_name": "轻食",
+    "audio_path": "storage/audio/sample_lightmeal_01.wav",
+    "original_text": "轻食搭配挺清爽的，不过价格还是稍微高了点。",
+    "cleaned_text": "轻食搭配清爽，但价格略高。",
+    "language": "zh",
+    "sentiment_label": "正面",
+    "sentiment_scores": {
+      "positive": 0.67,
+      "negative": 0.11,
+      "neutral": 0.22
+    },
+    "issue_categories": ["价格", "口味"],
+    "issue_weights": {
+      "价格": 0.46,
+      "口味": 0.54
+    },
+    "urgency": "低",
+    "summary": "学生认为搭配清爽，但价格略高。",
+    "summary_en": "Students find the meal fresh and balanced, though the price feels a bit high.",
+    "total_score": 88.0,
+    "created_at": "2026-03-24T11:50:00"
+  },
+  {
+    "shop_name": "猪肚鸡",
+    "audio_path": "storage/audio/sample_porktripe_01.wav",
+    "original_text": "猪肚鸡味道可以，就是中午出餐有点慢。",
+    "cleaned_text": "猪肚鸡味道认可度不错，但高峰期出餐偏慢。",
+    "language": "zh",
+    "sentiment_label": "中性",
+    "sentiment_scores": {
+      "positive": 0.45,
+      "negative": 0.23,
+      "neutral": 0.32
+    },
+    "issue_categories": ["出餐速度", "口味"],
+    "issue_weights": {
+      "出餐速度": 0.57,
+      "口味": 0.43
+    },
+    "urgency": "中",
+    "summary": "味道认可度不错，但高峰期出餐偏慢。",
+    "summary_en": "The flavor is well received, but serving speed slows down during peak periods.",
+    "total_score": 84.0,
+    "created_at": "2026-03-24T12:30:00"
+  },
+  {
+    "shop_name": "一鸣鲜奶吧",
+    "audio_path": "storage/audio/sample_yiming_01.wav",
+    "original_text": "一鸣鲜奶吧早上买牛奶挺方便，排队也还可以。",
+    "cleaned_text": "一鸣鲜奶吧乳品口感稳定，早高峰排队可接受。",
+    "language": "zh",
+    "sentiment_label": "正面",
+    "sentiment_scores": {
+      "positive": 0.73,
+      "negative": 0.09,
+      "neutral": 0.18
+    },
+    "issue_categories": ["口味", "排队效率"],
+    "issue_weights": {
+      "口味": 0.55,
+      "排队效率": 0.45
+    },
+    "urgency": "低",
+    "summary": "乳品口感稳定，早高峰排队可接受。",
+    "summary_en": "The dairy drinks are consistent, and the morning queue remains manageable.",
+    "total_score": 87.0,
+    "created_at": "2026-03-24T08:40:00"
+  },
+  {
+    "shop_name": "古茗奶茶",
+    "audio_path": "storage/audio/sample_guming_01.wav",
+    "original_text": "The milk tea tastes okay, but the queue at noon is too long.",
+    "cleaned_text": "古茗奶茶饮品口味正常，但午间等待时间偏长。",
+    "language": "en",
+    "sentiment_label": "中性",
+    "sentiment_scores": {
+      "positive": 0.37,
+      "negative": 0.27,
+      "neutral": 0.36
+    },
+    "issue_categories": ["排队效率", "口味"],
+    "issue_weights": {
+      "排队效率": 0.62,
+      "口味": 0.38
+    },
+    "urgency": "中",
+    "summary": "饮品口味正常，但午间等待时间偏长。",
+    "summary_en": "The drinks taste fine, but the wait around noon is a bit too long.",
+    "total_score": 82.0,
+    "created_at": "2026-03-24T13:00:00"
+  },
+  {
+    "shop_name": "快乐星汉堡",
+    "audio_path": "storage/audio/sample_happystar_01.wav",
+    "original_text": "快乐星汉堡性价比还不错，汉堡味道也挺稳定。",
+    "cleaned_text": "快乐星汉堡性价比较高，口味稳定。",
+    "language": "zh",
+    "sentiment_label": "正面",
+    "sentiment_scores": {
+      "positive": 0.71,
+      "negative": 0.08,
+      "neutral": 0.21
+    },
+    "issue_categories": ["价格", "口味"],
+    "issue_weights": {
+      "价格": 0.48,
+      "口味": 0.52
+    },
+    "urgency": "低",
+    "summary": "学生认为性价比较高，口味也比较稳定。",
+    "summary_en": "Students think it offers good value for money and the taste is fairly consistent.",
+    "total_score": 85.0,
+    "created_at": "2026-03-24T17:20:00"
+  }
+]
